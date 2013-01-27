@@ -1178,6 +1178,10 @@ pcre:
   rhel: pcre-devel
   debian: libpcre3-dev
   gentoo: libpcre
+people:
+  ubuntu: 
+    apt:
+      packages: [people]
 pkg-config:
   arch: pkg-config
   cygwin: pkg-config
