@@ -1180,6 +1180,8 @@ pcre:
   gentoo: libpcre
 people:
   ubuntu: people
+    apt:
+      packages: [ros-fuerte-people, ros-groovy-people]
 pkg-config:
   arch: pkg-config
   cygwin: pkg-config
