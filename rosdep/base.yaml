@@ -1179,7 +1179,7 @@ pcre:
   debian: libpcre3-dev
   gentoo: libpcre
 people:
-  ubuntu: people
+  ubuntu:
     apt:
       packages: [ros-fuerte-people, ros-groovy-people]
 pkg-config:
