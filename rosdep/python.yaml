@@ -39,6 +39,8 @@ python-avahi:
   debian: python-avahi
 python-beautifulsoup:
   ubuntu: python-beautifulsoup
+python-bcrypt:
+  ubuntu: python-bcrypt
 python-bluez:
   arch: python-pybluez
   debian: python-bluez
