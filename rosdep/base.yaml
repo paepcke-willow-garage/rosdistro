@@ -1181,7 +1181,7 @@ pcre:
 people:
   ubuntu: 
     apt:
-      packages: [people]
+      packages: [ros-fuerte-people, ros-groovy-people]
 pkg-config:
   arch: pkg-config
   cygwin: pkg-config
