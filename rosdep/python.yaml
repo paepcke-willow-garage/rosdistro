@@ -81,6 +81,8 @@ python-empy:
   debian: python-empy
   ubuntu: python-empy
   fedora: python-empy
+python-gridfs:
+  ubuntu: python-gridfs
 python-gst:
   ubuntu: python-gst0.10
 python-gtk2:
@@ -105,6 +107,8 @@ python-imaging:
   macports: py26-pil
   gentoo: dev-python/imaging
   freebsd: py27-imaging
+python-impacket:
+  ubuntu: python-impacket
 python-kitchen:
   ubuntu: python-kitchen
 python-libpcap:
@@ -160,6 +164,8 @@ python-paramiko:
   gentoo: dev-python/paramiko
   freebsd: py27-paramiko
   arch: python-paramiko
+python-pcapy:
+  ubuntu: python-pcapy
 python-pexpect:
   ubuntu: python-pexpect
 python-psutil:
@@ -210,6 +216,7 @@ python-qt-bindings-gl:
   debian: python-qt4-gl
 python-qt-bindings-qwt5:
   ubuntu: python-qwt5-qt4
+  debian: python-qwt5-qt4
   fedora: PyQwt-devel
 python-qt4-gl:
   ubuntu: 
@@ -220,6 +227,7 @@ python-qt4-gl:
       packages: [python-qt4-gl]
 python-qwt5-qt4:
   ubuntu: python-qwt5-qt4
+  debian: python-qwt5-qt4
 python-rdflib:
   ubuntu: python-rdflib
 python-redis:
@@ -285,6 +293,7 @@ python-sphinx:
   ubuntu: python-sphinx
 python-support:
   ubuntu: python-support
+  debian: python-support
   fedora: python
 python-svn: 
   ubuntu: python-svn
@@ -294,6 +303,8 @@ python-tk:
   ubuntu: python-tk
 python-twisted-core:
   ubuntu: python-twisted-core
+python-usb:
+  ubuntu: python-usb
 python-wstool:
   fedora:
     pip:
@@ -319,3 +330,10 @@ python-yaml:
         python setup.py install 
       fi
   freebsd: py27-yaml
+python-pymouse:
+  ubuntu:
+    pip:
+      packages: [ pymouse ]
+  osx:
+    pip:
+      packages: [ pymouse ]
